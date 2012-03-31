@@ -1,6 +1,6 @@
-{ "name": "embedly"
+{ "name": "embedly-clone"
 , "version": "0.5.2"
-, "description": "Embedly client library for node"
+, "description": "CLONE for Embedly client library for node, that hopefully fixes the npm install on node v0.6.14"
 , "homepage": "https://github.com/embedly/embedly-node"
 , "keywords": []
 , "author":
@@ -18,8 +18,8 @@
 , "main": "./lib/embedly.js"
 , "scripts": { "test": "vows" }
 , "bin":
-  { "embedly_oembed": "bin/embedly_oembed.js"
-  , "embedly_objectify": "bin/embedly_objectify.js"
-  , "embedly_preview": "bin/embedly_preview.js"
+  { "embedly_oembed": "./bin/embedly_oembed.js"
+  , "embedly_objectify": "./bin/embedly_objectify.js"
+  , "embedly_preview": "./bin/embedly_preview.js"
   }
 }
